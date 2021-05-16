@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* navbar */
+nav div ul li a {
+  color: black;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+/*akhir navbar*/
+
+/*Isi*/
+.margin_div_top {
+  margin-top: 80px;
+}
+.margin_div_top p {
+  text-align: center;
+}
+
+.no-border {
+  border: 0;
+  box-shadow: none;
+}
+.isi {
+  max-width: 400px;
+  border-radius: 30px;
+  padding: 50px;
+}
+.isi p {
+  font-weight: bold;
+  font-size: 20px;
+}
+/*button*/
+.button-daftar {
+  font-weight: bold;
+  padding: 4px;
+  border: 2px solid lightgreen;
+  border-radius: 12px;
+  width: 100px;
+}
+.gambar {
+  max-width: 100%;
+  height: auto;
+}
