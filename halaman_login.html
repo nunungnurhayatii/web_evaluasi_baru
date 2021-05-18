@@ -61,15 +61,17 @@
     <div class="border border-success isi" style="max-width: 400px; float:left; margin-left: 150px;">
         <!-- teks login -->
         <p>Login</p>
+       <!-- FORM LOGIN -->
+        <form method="post" action="login.php">
         <!-- username -->
         <div class="mb-3">
-            <label for="Username" class="form-label">Username</label>
-            <input type="email" class="form-control" id="Username" placeholder="name@gmail.com">
+            <label for="username" class="form-label">Username</label>
+            <input type="text" class="form-control" name="username" placeholder="masukkan username">
         </div>
         <!-- password -->
         <div class="mb-3">
-            <label for="inputPassword" class="form-label">Password</label>
-            <input type="password" class="form-control" id="inputPassword">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" name="password" placeholder="masukkan password">
         </div>
         <!-- checkbox -->
         <div class="form-check">
@@ -78,11 +80,12 @@
                 ingat saya
             </label>
         </div>
-        <!-- button masuk -->
-        <button class="button-masuk">
-            <a href="halaman_perkenalan.html">Masuk</a>
-        </button>
+        <!-- button login -->
+             <button class="button-masuk" type="submit" name="bdaftar">Masuk</button>
+            </form>
+            <!-- AKHIR FORM LOGIN -->
     </div>
+    <!-- GAMBAR -->
     <div style="max-width: 400px; float:right; margin-right: 100px;">
         <img src="picture/gambar_login.png" alt="gambar" class="gambar">
     </div>
