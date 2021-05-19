@@ -15,7 +15,7 @@ if (isset($_POST['tdaftar'])) {
             echo "<script>alert('Password salah'); </script>";
         }else{
             $_SESSION['log'] = true;
-            echo "<script>alert('Login berhasil'); document.location.href='utama.php'</script>";
+            echo "<script>alert('Login berhasil'); document.location.href='halaman_utama.php'</script>";
         }
     }else{
         echo "<script>alert('Username salah atau belum terdaftar');</script>";
