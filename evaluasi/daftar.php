@@ -34,7 +34,7 @@ $nama = $asal_sekolah = $username = $password = $nama_err = $asal_sekolah_err = 
 
 		$query = mysqli_query($koneksi, $sql);
 			if ($query) {
-				echo "<script>alert('Data Berhasil Tersimpan'); document.location.href='login.php'</script>";
+				echo "<script>alert('Data Berhasil Tersimpan'); document.location.href='halaman_login.html'</script>";
 				}else{
 				echo "<script>alert('Data Gagal Tersimpan')</script>";
 				}

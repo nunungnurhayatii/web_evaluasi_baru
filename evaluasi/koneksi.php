@@ -5,7 +5,8 @@
 	$pass = "";
 	$database = "db_evaluasi";
 
-	$koneksi = mysqli_connect($server, $user, $pass, $database) or die(mysqli_error($koneksi));
-
-
- ?>
+	$koneksi = mysqli_connect($server, $user, $pass, $database);
+	if(!$koneksi){
+		die ("Koneksi tidak berhasil");
+	}
+?>
